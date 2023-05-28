@@ -1,0 +1,99 @@
+#titlepage { /*Uses an id selector*/
+    text-align: center; /*Position of the element*/
+}
+
+h2, p { /*Uses a group type selector*/
+    text-align: center; 
+}
+
+body {
+    background-color: black;
+    font-family: monospace, serif;
+}
+
+.menu{/*A type of selector. It's like to define a group of attributes.*/
+    width: 80%;/*You can set this as a value for px or a percentage if you prefer to adjust it to its parent element*/
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto; /*Invisible space around an element*/
+    border-style: solid;
+    color: rgb(255, 0, 255);
+    border-color:rgb(255, 0, 255);
+    background-color: black;
+    padding: 20px; /*Give some space between the content and the sides. You can use multiple paddings if they're not the same*/
+}
+
+.type, .toy{ /*You can add multiple classes with the same attributes. */
+    text-align: left;
+    width: 75%; 
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+.item p{
+    display: inline-block; /*Display controls element's behaviors. It passed from inline to block.*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif; /*This uses fallbacks, if times new roman doesn't work, uses the next one.*/
+}
+.established {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+  }
+  
+h2 {
+    font-size: 30px;
+}
+
+hr {
+    background-color: rgb(255, 0, 255);
+    border-color: rgb(255, 0, 255);
+    height: 1px;
+    border-width: 1px;
+}
+
+.bottom-line { /*Uses a pseudo-selector*/
+  margin-top: 25px;
+}
+
+a {
+    color: deeppink;
+}
+
+a:visited{
+    color:darkviolet;
+}
+
+a:hover{
+    color:hotpink;
+}
+
+a:active {
+    color:darksalmon;
+}
+
+.address-bottom {
+    margin-bottom: 5px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51px;
+    height: 44px;
+    margin-top: -25px; /*The negative sign indicates that the value starts after the finish of the element above*/
+}
+
